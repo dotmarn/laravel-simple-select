@@ -1,8 +1,8 @@
 {
-    "name": "victorybiz/laravel-simple-select",
+    "name": "dotmarn/laravel-simple-select",
     "description": "Laravel Simple Select inputs component for Blade and Livewire.",
     "keywords": [
-        "victorybiz",
+        "dotmarn",
         "laravel-simple-select",
         "simple-select",
         "laravel",
@@ -16,33 +16,33 @@
         "custom select",
         "multi select"
     ],
-    "homepage": "https://github.com/victorybiz/laravel-simple-select",
+    "homepage": "https://github.com/dotmarn/laravel-simple-select",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Victory Osayi Airuoyuwa",
-            "email": "lavictorybiz@gmail.com",
+            "name": "Ridwan Kasim",
+            "email": "kasimsheyi20@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
         "livewire/livewire": "^2.4|^3.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0|^8.0|^9.0",
-        "phpunit/phpunit": "^9.0|^10.5"
+        "orchestra/testbench": "^6.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^9.0|^10.5|^11.5.3"
     },
     "autoload": {
         "psr-4": {
-            "Victorybiz\\SimpleSelect\\": "src"
+            "Dotman\\SimpleSelect\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Victorybiz\\SimpleSelect\\Tests\\": "tests"
+            "Dotman\\SimpleSelect\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -55,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Victorybiz\\SimpleSelect\\SimpleSelectServiceProvider"
+                "Dotman\\SimpleSelect\\SimpleSelectServiceProvider"
             ],
             "aliases": {
-                "SimpleSelect": "Victorybiz\\SimpleSelect\\SimpleSelectFacade"
+                "SimpleSelect": "Dotman\\SimpleSelect\\SimpleSelectFacade"
             }
         }
     }

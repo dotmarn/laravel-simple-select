@@ -1,11 +1,11 @@
 <?php
 
-namespace Victorybiz\SimpleSelect;
+namespace Dotman\SimpleSelect;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Victorybiz\SimpleSelect\Skeleton\SkeletonClass
+ * @see \Dotman\SimpleSelect\Skeleton\SkeletonClass
  */
 class SimpleSelectFacade extends Facade
 {

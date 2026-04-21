@@ -1,6 +1,6 @@
 <?php
 
-namespace Victorybiz\SimpleSelect;
+namespace Dotman\SimpleSelect;
 
 use Illuminate\View\Component;
 

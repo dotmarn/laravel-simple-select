@@ -1,14 +1,14 @@
 # Laravel Simple Select
 
-Laravel Simple Select inputs component for Blade and Livewire.
+Laravel Simple Select inputs component for Blade and Livewire. This is a fork of https://packagist.org/packages/victorybiz/laravel-simple-select
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/victorybiz/laravel-simple-select.svg?style=flat-square)](https://packagist.org/packages/victorybiz/laravel-simple-select)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/victorybiz/laravel-simple-select.svg?style=flat-square)](https://packagist.org/packages/dotmarn/laravel-simple-select)
 [![Total Downloads](https://img.shields.io/packagist/dt/victorybiz/laravel-simple-select.svg?style=flat-square)](https://packagist.org/packages/victorybiz/laravel-simple-select)
 ![GitHub Actions](https://github.com/victorybiz/laravel-simple-select/actions/workflows/main.yml/badge.svg)
 
 ### DEMO PREVIEW
 
-![preview](https://github.com/victorybiz/laravel-simple-select/raw/main/demo.gif) 
+![preview](https://github.com/dotmarn/laravel-simple-select/raw/main/demo.gif) 
 
 
 
@@ -48,7 +48,7 @@ Laravel Simple Select inputs component for Blade and Livewire.
 You can install the package via composer:
 
 ```bash
-composer require victorybiz/laravel-simple-select
+composer require dotmarn/laravel-simple-select
 ```
 
 **OPTIONAL**: To customize the component, you should publish the configuration file using the vendor:publish Artisan command. The configuration file will be placed in your application's config directory and view file in views directory respectively:
@@ -455,7 +455,7 @@ If you discover any security related issues, please email lavictorybiz@gmail.com
 
 ## Credits
 
--   [Victory Osayi Airuoyuwa](https://github.com/victorybiz)
+-   [Ridwan Kasim](https://github.com/dotmarn)
 -   [All Contributors](../../contributors)
 
 ## License

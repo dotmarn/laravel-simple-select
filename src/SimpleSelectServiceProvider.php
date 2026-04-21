@@ -1,10 +1,10 @@
 <?php
 
-namespace Victorybiz\SimpleSelect;
+namespace Dotman\SimpleSelect;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
-use Victorybiz\SimpleSelect\SimpleSelect;
+use Dotman\SimpleSelect\SimpleSelect;
 
 
 class SimpleSelectServiceProvider extends ServiceProvider
